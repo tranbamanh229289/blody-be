@@ -1,0 +1,14 @@
+server:
+ port: 8081
+
+spring:
+ datasource:
+  url: jdbc:mysql://localhost:3306/blody
+  username: root
+  password: 2292892000
+ jpa:
+  hibernate:
+   ddl-auto: create-drop
+  properties:
+   hibernate:
+    dialect: org.hibernate.dialect.MySQL8Dialect
